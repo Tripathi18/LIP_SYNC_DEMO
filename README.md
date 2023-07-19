@@ -51,4 +51,4 @@ video_with_audio.write_videofile(output_path, codec='libx264')
 
 If you encounter any issues or errors while running the script, make sure you have the necessary dependencies installed (OpenCV and MoviePy) and that the file paths are correct.
 
-For further assistance or inquiries, please contact [Your Name] at [your-email@example.com].
+For further assistance or inquiries, please contact me at ayusht18dec@gmail.com.
