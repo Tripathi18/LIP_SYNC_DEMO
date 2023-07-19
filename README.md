@@ -1,8 +1,20 @@
-**Lip-Sync Video Generator**
+# Lip-Sync Video Generator
+
+## Table of Contents
+
+- [Introduction](#Introduction)
+- [Prerequisites](#Prerequisites)
+- [Usage](#Usage)
+- [Customization](#Cutomization)
+- [Troubleshooting](#Troubleshooting)
+
+# Introduction
+
 
 This Python script combines a video file with an audio file to generate a lip-synced video. The script utilizes the OpenCV and MoviePy libraries to extract video frames, read audio files, and synchronize them to create a new output video.
 
-**Prerequisites**
+
+## Prerequisites
 
 Make sure you have the following libraries installed:
 
@@ -16,22 +28,30 @@ pip install opencv-python
 
 pip install moviepy
 
-**Usage**
+
+## Usage
+
 
 Place your video file (video.mp4) and audio file (output10.wav) in the same directory as the script.
 Update the video_path and audio_path variables in the script with the correct file names or paths.
 
+
 video_path = 'video.mp4'  # Path of your video file
+
 
 audio_path = 'output10.wav'  # Path of your audio file
 
+
 Run the script. It will generate a lip-synced video by combining the video frames and audio. The output video will be saved as output_video_1.mp4.
+
 
 python lip_sync.py
 
+
 **Note: Ensure that the video and audio files have compatible formats and codecs.**
 
-**Customization**
+
+## Customization
 
 If you want to change the output video file name or path, modify the output_path variable in the script:
 
@@ -47,7 +67,8 @@ video_with_audio.write_videofile(output_path, codec='libx264')
 
 **Feel free to modify and use the code according to your requirements.**
 
-**Troubleshooting**
+
+## Troubleshooting
 
 If you encounter any issues or errors while running the script, make sure you have the necessary dependencies installed (OpenCV and MoviePy) and that the file paths are correct.
 
