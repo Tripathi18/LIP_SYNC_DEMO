@@ -45,7 +45,7 @@ audio_path = 'output10.wav'  # Path of your audio file
 Run the script. It will generate a lip-synced video by combining the video frames and audio. The output video will be saved as output_video_1.mp4.
 
 
-python lip_sync.py
+python lip_sync_task.py
 
 
 **Note: Ensure that the video and audio files have compatible formats and codecs.**
